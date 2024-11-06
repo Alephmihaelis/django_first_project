@@ -10,3 +10,6 @@ def about(request):
 
 def contact(request):
     return render(request, 'chat/contact.html')
+
+def policies(request):
+    return render(request, 'chat/policies.html')
